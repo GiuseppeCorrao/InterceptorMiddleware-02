@@ -1,0 +1,11 @@
+Spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/newdb
+    username: developer
+    password: developer
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
